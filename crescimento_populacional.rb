@@ -12,7 +12,7 @@ t.times do |num|
 
 	count = 0
 
-	while pa <= pb and count <= 101 #complete o while
+	while pa <= pb and count <= 101
 		
 		pa +=((pa*g1).to_i / 100)
 	    pb +=((pb*g2).to_i / 100)
@@ -21,10 +21,10 @@ t.times do |num|
 
 	end
 
-	if count <= 100 #insira o valor correto
-		resultado << "#{count} anos.\n"  #complete o codigo #complete o codigo
+	if count <= 100 
+		resultado << "#{count} anos.\n"
 	else
-		resultado << "Mais de 1 seculo.\n" #complete a saida
+		resultado << "Mais de 1 seculo.\n"
 	end
 	count = 0
 end
