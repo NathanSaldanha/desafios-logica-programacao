@@ -1,3 +1,6 @@
+# plataforma - https://www.urionlinejudge.com.br/
+# Id do desafio 1002
+
 (defn transforms-into-double-precision
   [valor]
   (format "%.4f" valor))
