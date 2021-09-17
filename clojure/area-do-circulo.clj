@@ -1,5 +1,5 @@
-# plataforma - https://www.urionlinejudge.com.br/
-# Id do desafio 1002
+; Plataforma - https://www.urionlinejudge.com.br/
+; Id do desafio 1002
 
 (defn transforms-into-double-precision
   [valor]
