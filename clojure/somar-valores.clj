@@ -1,5 +1,5 @@
-# plataforma - https://www.urionlinejudge.com.br/
-# Id do desafio 1001
+; plataforma - https://www.urionlinejudge.com.br/
+; Id do desafio 1001
 
 (println "X =" (let [A (read-line)
                      B (read-line)]
