@@ -1,1 +1,1 @@
-# Repositorio criado para desafios logica programacao
+# Repositorio criado para desafios de logica programacao
