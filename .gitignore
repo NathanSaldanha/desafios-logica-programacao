@@ -1,0 +1,25 @@
+# Calva (VSCode Clojure extension)
+.calva/
+
+# clj-kondo cache
+.clj-kondo/.cache/
+
+# LSP cache
+.lsp/.cache/
+
+# Clojure build tools
+target/
+.clj-kondo/out/
+.shadow-cljs/
+
+# Node (caso use ClojureScript)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*~
