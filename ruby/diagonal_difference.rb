@@ -1,23 +1,19 @@
-#!/bin/ruby
-
-require 'json'
-require 'stringio'
-
-#
-# Complete the 'diagonalDifference' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts 2D_INTEGER_ARRAY arr as parameter.
-#
-
 def diagonalDifference(arr)
+  count_left = 0
+  count_right = arr.length - 1
 
-  puts "here: #{arr}"
+  sum_left = 0
+  sum_right = 0
+
 
   arr.each {|rate|
-    puts rate
-  }
+    sum_left += rate[count_left]
+    count_left +=1
 
+    sum_right += rate[count_right]
+    count_right -=1
+  }
+  return (sum_left-sum_right).abs
 end
 
 n = gets.strip.to_i
@@ -29,3 +25,5 @@ n.times do |i|
 end
 
 result = diagonalDifference arr
+
+puts result
